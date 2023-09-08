@@ -103,6 +103,7 @@ DATABASES = {
 }
 
 
+
 REST_FRAMEWORK = {
     'NON_FIELD_ERRORS_KEY': 'error',
     'COERCE_DECIMAL_TO_STRING': False,
