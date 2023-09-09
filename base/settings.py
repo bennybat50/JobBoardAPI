@@ -92,16 +92,15 @@ WSGI_APPLICATION = 'base.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'resume_krs6',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'resume',
         'USER': 'root',
-        'PASSWORD': 'fK2YN88ONILc3glroitU418Jy9k8PqxT',
-        'HOST': 'dpg-cjtpsp7hdsdc73drvcv0-a',
-        'PORT': '5432',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
         'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"},
     }
 }
-
 
 
 REST_FRAMEWORK = {
